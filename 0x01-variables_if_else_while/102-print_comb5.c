@@ -28,7 +28,7 @@ for (i = 0; i <= 9; i++)
 				putchar(k + '0');
 				putchar(n + '0');
 
-				if ((n == 9) && (j == 8))
+				if ((i == 9) && (j == 8) && (k == 9) && (n == 9))
 					continue;
 
 				putchar(',');
