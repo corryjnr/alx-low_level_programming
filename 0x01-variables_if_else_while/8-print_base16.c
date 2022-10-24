@@ -7,7 +7,7 @@ int main(void)
 {
 	int i;
 	char j;
-	
+
 	i = 0;
 	j = 'a';
 	while (i < 16)
