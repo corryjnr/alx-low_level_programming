@@ -12,12 +12,16 @@ void jack_bauer(void)
 
 	for (hr1 = 0; hr1 < 3; hr1++)
 	{
-		for (hr2 = 0; hr2 < 4; hr2++)
+		for (hr2 = 0; hr2 < 10; hr2++)
 		{
 			for (min1 = 0; min1 < 6; min1++)
 			{
 				for (min2 = 0; min2 < 10; min2++)
 				{
+					if (hr1 == 2 && hr2 > 3)
+					{
+					break;
+					}	
 					_putchar(hr1 + '0');
 					_putchar(hr2 + '0');
 					_putchar(':');
