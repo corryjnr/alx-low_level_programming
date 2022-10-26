@@ -21,7 +21,7 @@ void jack_bauer(void)
 					if (hr1 == 2 && hr2 > 3)
 					{
 					break;
-					}	
+					}
 					_putchar(hr1 + '0');
 					_putchar(hr2 + '0');
 					_putchar(':');
